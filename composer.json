@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "evitenic/inertia-latte",
+    "description": "This is my package inertia-latte",
     "keywords": [
-        ":vendor_name",
+        "evitenic",
         "laravel",
-        ":package_slug"
+        "inertia-latte"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/evitenic/inertia-latte",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ahmad Shobirin",
+            "email": "ahmads1704@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Evitenic\\InertiaLatte\\": "src/",
+            "Evitenic\\InertiaLatte\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Evitenic\\InertiaLatte\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Evitenic\\InertiaLatte\\InertiaLatteServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "InertiaLatte": "Evitenic\\InertiaLatte\\Facades\\InertiaLatte"
             }
         }
     },

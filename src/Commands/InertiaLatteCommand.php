@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Evitenic\InertiaLatte\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class InertiaLatteCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'inertia-latte';
 
     public $description = 'My command';
 
