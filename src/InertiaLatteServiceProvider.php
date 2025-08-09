@@ -2,9 +2,9 @@
 
 namespace Evitenic\InertiaLatte;
 
+use Evitenic\InertiaLatte\Commands\InertiaLatteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Evitenic\InertiaLatte\Commands\InertiaLatteCommand;
 
 class InertiaLatteServiceProvider extends PackageServiceProvider
 {

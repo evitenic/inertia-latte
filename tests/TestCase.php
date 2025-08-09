@@ -2,9 +2,9 @@
 
 namespace Evitenic\InertiaLatte\Tests;
 
+use Evitenic\InertiaLatte\InertiaLatteServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Evitenic\InertiaLatte\InertiaLatteServiceProvider;
 
 class TestCase extends Orchestra
 {
